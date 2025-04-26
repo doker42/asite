@@ -1,0 +1,52 @@
+.image-list {
+    height: 200px;
+    object-fit: cover;
+    padding: 15px;
+    border-radius: 25px;
+}
+.article-content {
+    line-height: 1.5 !important;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+.border-published {
+    border-color: #3fe19d;
+    border-width: 2px;
+}
+.code-block-wrapper {
+    position: relative;
+    background: #5b5e61;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    margin: 0;
+    overflow-x: auto;
+}
+pre .code-block-wrapper {
+    margin: 10px 0;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: normal;
+    white-space: pre;
+    color: #fffdfd;
+    padding: 0 15px;
+}
+pre {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e9ecef;
+    border: none;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.copy-btn:hover {
+    background-color: #d3d3d3;
+}
