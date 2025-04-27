@@ -4,7 +4,6 @@ use App\Http\Controllers\ArticleController;
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 use App\Http\Controllers\ResumeController;
-use App\Http\Middleware\VisitorMiddleware;
 
 Route::group(['prefix' => 'articles'], function () {
     Route::controller( ArticleController::class)->group(function () {
