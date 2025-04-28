@@ -736,16 +736,16 @@
         },
         {
             "name": "doker42/visitors-watcher",
-            "version": "v1.0.3",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doker42/visitors-watcher.git",
-                "reference": "4d8a9ab12ab15d3982f2637f9c5f3cc6754fc770"
+                "reference": "e96dcda0f39a9a587a9e4630ea73bc9cbb44595d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doker42/visitors-watcher/zipball/4d8a9ab12ab15d3982f2637f9c5f3cc6754fc770",
-                "reference": "4d8a9ab12ab15d3982f2637f9c5f3cc6754fc770",
+                "url": "https://api.github.com/repos/doker42/visitors-watcher/zipball/e96dcda0f39a9a587a9e4630ea73bc9cbb44595d",
+                "reference": "e96dcda0f39a9a587a9e4630ea73bc9cbb44595d",
                 "shasum": ""
             },
             "require": {
@@ -777,9 +777,9 @@
             "description": "landing-visitors-watcher",
             "support": {
                 "issues": "https://github.com/doker42/visitors-watcher/issues",
-                "source": "https://github.com/doker42/visitors-watcher/tree/v1.0.3"
+                "source": "https://github.com/doker42/visitors-watcher/tree/v1.0.5"
             },
-            "time": "2025-04-27T16:25:17+00:00"
+            "time": "2025-04-28T12:18:44+00:00"
         },
         {
             "name": "dompdf/dompdf",
