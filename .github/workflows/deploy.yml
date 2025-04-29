@@ -10,15 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code (only needed to avoid errors in workflow)
-        uses: actions/checkout@v4
-
-      - name: Set up PHP (optional, not used in remote deploy)
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.3
-          extensions: mbstring, xml, bcmath, zip, curl
-          tools: composer
+#      - name: Checkout code (only needed to avoid errors in workflow)
+#        uses: actions/checkout@v4
+#
+#      - name: Set up PHP (optional, not used in remote deploy)
+#        uses: shivammathur/setup-php@v2
+#        with:
+#          php-version: 8.3
+#          extensions: mbstring, xml, bcmath, zip, curl
+#          tools: composer
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v0.1.8
